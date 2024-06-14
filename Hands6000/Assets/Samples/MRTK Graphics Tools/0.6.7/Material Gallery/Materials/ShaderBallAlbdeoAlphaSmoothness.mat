@@ -13,6 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHABLEND_ON
+  - _GLOSSYREFLECTIONS_OFF
   m_InvalidKeywords:
   - _ADDITIVE_ON
   - _DIRECTIONAL_LIGHT
@@ -143,7 +144,7 @@ Material:
     - _FluentLightIntensity: 1
     - _GlossMapScale: 1
     - _Glossiness: 0
-    - _GlossyReflections: 1
+    - _GlossyReflections: 0
     - _GradientAngle: 180
     - _GradientMode: 0
     - _HoverLight: 1
@@ -211,7 +212,7 @@ Material:
     - _ClipPlane: {r: 0, g: 1, b: 0, a: 0}
     - _ClippingBorderColor: {r: 1, g: 0.2, b: 0, a: 1}
     - _ClippingPlaneBorderColor: {r: 1, g: 0.2, b: 0, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 0.09411765}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.22745098}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EnvironmentColorX: {r: 1, g: 0, b: 0, a: 1}
