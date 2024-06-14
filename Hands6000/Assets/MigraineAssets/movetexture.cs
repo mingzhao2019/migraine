@@ -21,12 +21,12 @@ public class movetexture : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time > 10 && Time.time < 160)
+        if (Time.time > 10 && Time.time < 20)
            {
             float offset = Time.time * scrollSpeed;
             rend.material.SetTextureOffset("_MainTex", new Vector2(offset, 0));
 
-            materialVisibility = materialVisibility + 0.01f * Time.deltaTime;
+            materialVisibility = materialVisibility + 0.5f * Time.deltaTime;
             // update material visibility
             rend.material.SetColor("_Color", new Color(0.9f, 0.9f, 0.9f, materialVisibility));
         }
