@@ -8,25 +8,27 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ShaderBallAlbdeoAlphaSmoothness
-  m_Shader: {fileID: 4800000, guid: c331f6c43a2ef0945864cb668f2653c9, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _ALPHABLEND_ON
+  m_InvalidKeywords:
   - _ADDITIVE_ON
   - _DIRECTIONAL_LIGHT
   - _HOVER_COLOR_OVERRIDE
   - _HOVER_LIGHT
   - _NORMAL_MAP
+  - _REFLECTIONS
   - _SPECULAR_HIGHLIGHTS
   - _USE_WORLD_SCALE
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap:
     DisableBatching: False
-    RenderType: Fade
+    RenderType: Transparent
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -55,7 +57,7 @@ Material:
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: 0.65, y: 0}
     - _EmissiveMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -67,7 +69,7 @@ Material:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 3f4d23ee9ceed344593bbe0526ab1d46, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: 0.65, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -117,7 +119,7 @@ Material:
     - _Cutoff: 0.534
     - _DetailNormalMapScale: 1
     - _DirectionalLight: 1
-    - _DstBlend: 1
+    - _DstBlend: 10
     - _DstBlendAlpha: 1
     - _EdgeSmoothingMode: 0
     - _EdgeSmoothingValue: 0.002
@@ -140,7 +142,7 @@ Material:
     - _FadeMinValue: 0
     - _FluentLightIntensity: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _GradientAngle: 180
     - _GradientMode: 0
@@ -157,7 +159,7 @@ Material:
     - _IridescenceThreshold: 0.05
     - _Metallic: 1
     - _MipmapBias: -2
-    - _Mode: 4
+    - _Mode: 2
     - _MyCullVariable: 1
     - _NPR: 0
     - _NearLightFade: 0
@@ -168,7 +170,7 @@ Material:
     - _ProximityLight: 0
     - _ProximityLightSubtractive: 0
     - _ProximityLightTwoSided: 0
-    - _Reflections: 0
+    - _Reflections: 1
     - _Refraction: 0
     - _RefractiveIndex: 1.1
     - _RenderQueueOverride: -1
@@ -183,7 +185,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SphericalHarmonics: 0
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _Stencil: 0
     - _StencilComparison: 0
@@ -209,7 +211,7 @@ Material:
     - _ClipPlane: {r: 0, g: 1, b: 0, a: 0}
     - _ClippingBorderColor: {r: 1, g: 0.2, b: 0, a: 1}
     - _ClippingPlaneBorderColor: {r: 1, g: 0.2, b: 0, a: 1}
-    - _Color: {r: 0.84313726, g: 0.84313726, b: 0.84313726, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.09411765}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EnvironmentColorX: {r: 1, g: 0, b: 0, a: 1}
