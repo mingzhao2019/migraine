@@ -23,13 +23,13 @@ public class fadeoutscript : MonoBehaviour
             // update material visibility
             rend.SetColor(new Color(0f, 0f, 0f, materialVisibility));
         }
-        if (narration.time > 5 && narration.time < 160)
+        if (narration.time > 5 && narration.time < 180)
         {
             rend.SetColor(new Color(0f, 0f, 0f, 0f));
         }
         if (narration.time > 180)
         {
-            materialVisibility = materialVisibility + 0.2f * Time.deltaTime;
+            materialVisibility = Mathf.Min(materialVisibility + 0.2f * Time.deltaTime, 1.0f);
             // update material visibility
             rend.SetColor(new Color(0f, 0f, 0f, materialVisibility));
         }
