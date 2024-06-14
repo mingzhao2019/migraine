@@ -82,3 +82,10 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 70884
+  packageName: Office Room Furniture
+  packageVersion: 1.0
+  assetPath: Assets/MigraineAssets/Office/Models/Armchair_1.fbx
+  uploadId: 137681
