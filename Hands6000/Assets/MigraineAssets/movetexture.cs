@@ -6,7 +6,7 @@ public class movetexture : MonoBehaviour
     float scrollSpeed = 0.1f;
     Renderer rend;
 
-    float materialVisibility = 0.01f;
+    float materialVisibility = 0.0f;
 
     void Start()
     {

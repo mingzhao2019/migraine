@@ -16,13 +16,13 @@ public class handFader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(rend.materials[1].GetVector("_FadeCenter"));
+        //Debug.Log(rend.materials[1].GetVector("_FadeCenter"));
         Vector3 fadecenter = rend.materials[1].GetVector("_FadeCenter");
         fadecenter.z = -0.1f;
 
         // rend.materials[1].SetVector("_FadeCenter", fadecenter);
 
-        if (Time.time > 40)
+        if (Time.time > 39)
         {
             rend.materials[1].SetVector("_FadeCenter", new Vector3(targetX,targetY,targetZ) );
         }
